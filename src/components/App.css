@@ -1,0 +1,425 @@
+.row {
+    --bs-gutter-x: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+/* NAV */
+.logo {
+    width: 180px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    border-bottom: 2px inset black;
+}
+
+nav ul {
+    width: 70%;
+    margin: 0 2% 0 2%;
+    justify-content: center;
+}
+
+nav ul li {
+    border-radius: 25px;
+    margin: 0 20px
+}
+
+nav ul button {
+    background: none;
+    background-color: antiquewhite;
+    font-size: 100%;
+    margin: 0 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+nav ul button:hover {
+    background: none;
+    background-color: rgb(190, 187, 187);
+    font-size: 100%;
+}
+
+nav ul button a {
+    color: black;
+    font-weight: 800;
+    margin: 0 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 991px) {
+    nav ul {
+        width: 100%;
+        margin: 0 ;
+        justify-content: center;
+    }
+
+    nav ul button {
+        width: 100%;
+        margin: 5px 0;
+        padding: 0;
+    }
+
+    .cartWidget{
+        display: block;
+        margin: auto;
+    }
+
+    
+}
+
+.form-control {
+    width: 50%;
+    margin: auto;
+}
+
+.d-flex {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Item */
+.row{
+    margin: auto;
+}
+
+.card {
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #fa8072;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card h5 {
+    font-weight: bold;
+    text-transform: uppercase ;
+    text-align: center;
+}
+
+.card footer{
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.card footer button{
+    border-radius: 25px;
+    background-color: rgb(153, 255, 238);
+}
+
+.card footer button:hover{
+    border-radius: 25px;
+    background-color: rgb(219, 245, 241);
+}
+
+.card footer a{
+    padding: 10px;
+    font-weight: 700;
+}
+
+
+/* darkMode */
+
+.darkMode {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.darkMode .card-body{
+    color: rgb(0, 0, 0);
+}
+
+.darkMode .pie{
+    background-color: #494949;
+}
+.darkMode .pie h3{
+    color: #ffffff;
+}
+.darkMode .pie a{
+    color: #a6f5e8;
+}
+
+
+/* ItemDetail */
+
+.itemdetail{
+    margin: 30px;
+}
+
+.itemdetail img{
+    border-radius: 25px;
+    margin-left: 25px;
+}
+
+.itemdetail .card-body h5{
+    font-size: 60px;
+}
+
+.itemdetail .card-body .card-text{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.itemdetail .card-body .stock{
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.itemdetail .btn {
+    margin: 10px;
+}
+
+
+/* Cart - CartContainer */
+
+.cartContainer {
+    width: 70%;
+    margin: 35px auto;
+}
+
+.cartContainer .cardCart img{
+    border-radius: 10px;
+}
+
+.cartContainer .cardCart .card-body h5{
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.cartContainer .cardCart .card-body .card-text{
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.cartContainer .cardCart .card-body .btn-succes{
+    background-color: #a011c4;
+}
+
+.cartButtons {
+    text-align: center;
+}
+
+.cartButtons p{
+    font-size: 26px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.cartButtons button{
+    margin: 10px;
+}
+
+.cartButtons a{
+    display: inline;
+}
+
+h1 {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+svg{
+    display: block;
+    margin: auto;
+    width: 17%;
+    height: 17%;
+}
+
+.agregarProductos {
+    display: block;
+    margin: 60px auto;
+}
+
+
+/* Terminar Compra */
+
+.divForm {
+    text-align: center;
+    margin: auto;
+}
+
+.divForm form{
+    margin: 20px auto;
+}
+
+.divForm form div{
+    margin: 30px auto;
+}
+
+.divForm form div label{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.pie {
+    background-color: rgb(226, 226, 226);
+    border-top: 1px inset black;
+  }
+  
+  .contacto {
+    padding-top: 10px;
+  }
+  
+  .paginas {
+    display: grid;
+    margin-top: 18px;
+  }
+
+  .paginas button{
+    margin-bottom: 25px;
+    border: 0;
+    background-color: transparent;
+  }
+
+  .paginas button a{
+    text-decoration: none;
+    color: #a011c4;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 22px;
+  }
+  .paginas button:hover {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  .medios {
+    margin-top: 18px;
+  }
+  .medios img {
+    width: 32%;
+    padding: 5px;
+  }
+  
+
+  .datos svg {
+    width: 10%;
+    height: 40%;
+  }
+  .datos p {
+    font-size: 18px;
+  }
+  
+  .col1 {
+    height: 100px;
+  }
+
+  .col1 .wts {
+    height: 150px;
+
+  }
+  .col1 .mail {
+    height: 100px;
+
+  }
+  
+  .col2 .lugar {
+    height: 150px;
+
+  }
+  .col2 .insta {
+    height: 150px;
+
+  }
+  
+  @media screen and (max-width: 1475px) {
+
+    .datos svg {
+      width: 50%;
+      height: 50%;
+    }
+    .datos p {
+      font-size: 15px;
+    }
+    .col1 .wts {
+      height: 120px;
+    }
+    .col1 .mail {
+      height: 120px;
+    }
+    .col2 .insta {
+      height: 120px;
+    }
+    .col2 .lugar {
+      height: 120px;
+    }
+    .paginas button a{
+      text-decoration: none;
+      color: #a011c4;
+      font-size: 18px;
+      font-weight: 400;
+      padding-bottom: 18px;
+    }
+    .paginas button:hover {
+      text-decoration: none;
+      color: #000000;
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 1120px) {
+    .datos svg {
+      width: 80%;
+      height: 40%;
+    }
+    .datos p {
+      font-size: 11px;
+    }
+    .paginas button a{
+      text-decoration: none;
+      color: #a011c4;
+      font-size: 15px;
+      font-weight: 400;
+      padding-bottom: 12px;
+    }
+    .paginas button:hover {
+      text-decoration: none;
+      color: #000000;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 766px) {
+    .datos {
+      margin-top: 20px;
+    }
+    .datos svg {
+      width: 50%;
+      height: 40%;
+    }
+    .datos p {
+      font-size: 16px;
+    }
+    .paginas a {
+      text-decoration: none;
+      color: #a011c4;
+      font-size: 15px;
+      font-weight: 400;
+      padding-bottom: 13px;
+    }
+    .paginas a:hover {
+      text-decoration: none;
+      color: #000000;
+      font-size: 12px;
+    }
+    .col1 {
+        height: 230px; 
+    }
+  }

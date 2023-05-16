@@ -1,0 +1,103 @@
+[
+
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Collar",
+        "material": "Plata 925",
+        "precio": "2100",
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-bb7c9.appspot.com/o/collar1.jpg?alt=media&token=2c4e0a52-6026-4426-a7d4-41dd61e6a84f"
+    },
+
+    {
+        "id": 2,
+        "idCategoria": 2,
+        "nombre": "Aritos",
+        "material": "plata 925",
+        "precio": "1500",
+        "stock": 50,
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-bb7c9.appspot.com/o/aros1.jpg?alt=media&token=7caa3528-c5be-4718-adc3-9fced83ef25b"
+    },
+
+    {
+        "id": 3,
+        "idCategoria": 2,
+        "nombre": "Abridor",
+        "material": "plata 925",
+        "precio": "3500",
+        "stock": 25,
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-bb7c9.appspot.com/o/abridor1.JPG?alt=media&token=51821f6c-4965-4fca-b385-94db25f47bfe"
+    },
+
+    {
+        "id": 4,
+        "idCategoria": 3,
+        "nombre": "Anillo",
+        "material": "plata 925",
+        "precio": "4500",
+        "stock": 25,
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-bb7c9.appspot.com/o/anillo1.JPG?alt=media&token=6ce5ba87-85b2-4a86-b5cf-515837676631"
+    },
+
+    {
+        "id": 5,
+        "idCategoria": 1,
+        "nombre": "Collar",
+        "material": "plata 925",
+        "precio": "8500",
+        "stock": 21,
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-bb7c9.appspot.com/o/collar2.jpg?alt=media&token=42c7119d-f384-41b7-b8b4-1b41fd08bca9"
+    },
+    
+    {
+        "id": 6,
+        "idCategoria": 1,
+        "nombre": "Collar",
+        "material": "plata 925",
+        "precio": "4900",
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-bb7c9.appspot.com/o/collar3.jpg?alt=media&token=b022a5cc-05fd-4b08-823b-d3052857d30c"
+    },
+
+    {
+        "id": 7,
+        "idCategoria": 3,
+        "nombre": "Anillo",
+        "material": "plata 925",
+        "precio": "2800",
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-bb7c9.appspot.com/o/anillo3.JPG?alt=media&token=6d021cd8-e59c-4017-88f4-1b18bbb294cf"
+    },
+
+    {
+        "id": 8,
+        "idCategoria": 3,
+        "nombre": "Anillo",
+        "material": "plata 925",
+        "precio": "3100",
+        "stock": 13,
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-bb7c9.appspot.com/o/anillo5.JPG?alt=media&token=236de505-5311-4761-861d-1d3fa1e081af"
+    },
+
+    {
+        "id": 9,
+        "idCategoria": 3,
+        "nombre": "Anillo",
+        "material": "plata 925",
+        "precio": "3750",
+        "stock": 18,
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-bb7c9.appspot.com/o/anillo4.JPG?alt=media&token=c737924f-1bbf-4823-88b7-3dc1ea647929"
+    },
+
+    {
+        "id": 10,
+        "idCategoria": 2,
+        "nombre": "Aritos",
+        "material": "plata 925",
+        "precio": "2400",
+        "stock": 3,
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-bb7c9.appspot.com/o/aros2.JPG?alt=media&token=7519afcc-f218-4df3-8637-4463d26719b1"
+    }
+
+]
